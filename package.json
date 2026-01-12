@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "install-g": "^0.0.2",
+    "nodemon": "^3.1.11"
+  }
+}

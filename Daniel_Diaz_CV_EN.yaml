@@ -1,0 +1,305 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Daniel Stiven Diaz
+  headline: Full Stack Software Engineer | Product-Oriented | React | WordPress | DevOps
+  location: Medellín, Colombia
+  email: danielstiven35@gmail.com
+  phone: "+57 324 787 8784"
+  website: https://daniels35.lat/
+  social_networks:
+    - network: LinkedIn
+      username: danielsdiaz35
+    - network: GitHub
+      username: Daniels35
+  
+  sections:
+    Professional Profile:
+      - Full Stack Software Engineer with experience in React, Node.js, and WordPress. Specialized in end-to-end digital product development, AI process automation, and production deployments (DevOps). I combine engineering, product strategy, and business vision to create scalable and profitable solutions.
+
+    Work Experience:
+      - company: Tag Marketing Digital
+        position: Full Stack Developer & WordPress Specialist
+        location: Envigado (Hybrid)
+        start_date: 2023-12
+        end_date: 2025-12
+        highlights:
+        - 'Web Development & CMS: Led the creation and maintenance of +25 WordPress sites using Elementor Pro, extending WooCommerce through custom plugins (PHP, MySQL, JavaScript).'
+        - 'Infrastructure & Deployment: Managed multi-provider servers and hosting (cPanel, Hostinger, Namecheap, HostGator), performing complete migrations, DNS configuration, and security with Cloudflare.'
+        - 'AI Automation: Implemented automation workflows for scheduling and customer service by integrating OpenAI API and n8n, increasing operational efficiency by 30%.'
+        - 'Performance Optimization: Reduced load times by up to 40% through asset optimization, caching, and performance best practices, improving conversion and UX.'
+        - 'SEO & Business Impact: Contributed to positioning multiple sites on the first page of search engines through technical and structural optimizations.'
+
+
+      - company: Freelance / Own Projects
+        position: Full Stack Web Developer
+        location: Remote
+        start_date: 2022-01
+        end_date: 2023-12
+        highlights:
+          - 'Professional Beginnings: Development of personal websites and small business sites using WordPress, managing design, content, basic SEO optimization, and deployment.'
+          - 'International Project (Spain): Development of web platform for wellness products, including design and hosting.'
+          - 'Featured Project: Car Wash Manager (SaaS). Designed and developed from scratch a Progressive Web App (PWA) for comprehensive vehicle wash management, currently in production.'
+          - 'Software Engineering: Scalable architecture with React and Redux Toolkit for state management, along with Firebase (Firestore and Auth) as serverless backend.'
+          - 'End-to-End Management: Requirements gathering, technical design, development, deployment, and continuous support, translating business needs into digital solutions.'
+
+
+    Featured Projects:
+    
+      - name: Facebook Ads → Google Sheets Connector
+        date: 2025
+        highlights:
+          - Automated connector to extract Facebook and Instagram Ads data directly into Google Sheets using Facebook Graph API and Google Apps Script.
+          - Built-in graphical interface (Sidebar) to configure custom reports without touching code.
+          - Dynamic KPI selection (Spend, Impressions, Clicks, CPC, CTR, ROAS) with advanced breakdowns by campaign, ad set, ad, age, gender, country, and platform.
+          - Automatic pagination handling for large data volumes and smart ad account validation.
+          - Secure storage of access tokens using ScriptProperties to avoid credential exposure.
+          - Designed as a free alternative to paid connectors like Supermetrics or Windsor.
+
+
+      - name: Tag Marketing Intranet (Internal System)
+        date: 2024 - 2025
+        highlights:
+          - Internal platform for operational management and company culture with gamification system (points, roles, and permissions).
+          - Node.js & Express backend with MySQL, Firebase Admin authentication, and automated tasks using cron jobs.
+          - Internal document system, email notifications (SMTP), and productivity tools such as QR generator.
+          - Separate client-server architecture (MERN stack) with React and Redux Toolkit on the frontend.
+
+      - name: Custom WordPress Plugins
+        date: 2024 - 2025
+        highlights:
+          - Development of custom PHP plugins for WooCommerce (stock filters, attribute visualizers).
+          - Integration with external financial APIs for real-time data tables.
+
+      - name: YouTube Speed Controller
+        date: 2024
+        highlights:
+          - Browser extension to bypass native playback speed limits (up to 5x) by manipulating the HTML5 video DOM.
+
+    Technical Skills:
+      - label: Frontend
+        details: React, JavaScript (ES6+), HTML5, CSS3, Redux Toolkit, WebGL (Canvas)
+      - label: Backend & Databases
+        details: Node.js, Express, Firebase (Firestore/Auth), PHP, MySQL
+      - label: CMS & No-Code
+        details: Advanced WordPress, Elementor Pro, WooCommerce (Hooks/API)
+      - label: Infrastructure
+        details: Git, cPanel, DNS Management, Cloudflare, n8n, OpenAI API
+
+    Languages:
+      - label: Spanish
+        details: Native
+      - label: English
+        details: B2 – Professional working proficiency (technical documentation and written communication)
+
+    Education:
+      - institution: Henry Bootcamp
+        area: Full Stack Web Developer
+        start_date: 2023-01
+        end_date: 2023-12
+        highlights:
+        - Intensive 700+ hour program focused on modern web development with React, Node.js, and agile methodologies.
+
+      - institution: LinkedIn Learning
+        area: User Interface (UI) & User Experience (UX) Design
+        start_date: 2024-01
+        end_date: 2024-04
+        highlights:
+        - Fundamentals of user-centered design, usability, visual hierarchy, and product-oriented interface design.
+
+      - institution: SENA
+        area: Market Management
+        start_date: 2019-01
+        end_date: 2022-12
+        highlights:
+        - Training in market analysis, commercial strategy, and marketing.
+        - Practical application in digital product validation, pricing, and customer-focused strategies.
+
+      - institution: SENA
+        area: Sales of Products and Services
+        start_date: 2018-01
+        end_date: 2019-05
+        highlights:
+        - Training in sales processes, negotiation, and customer service.
+        - Foundation for understanding user needs and business-oriented results.
+        
+design:
+  theme: classic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-01-02'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
