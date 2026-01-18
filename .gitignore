@@ -190,3 +190,5 @@ bin/
 
 # Coverage:
 coverage.md
+
+node_modules/

@@ -92,19 +92,30 @@ cv:
         details: B2 – Professional working proficiency (technical documentation and written communication)
 
     Education:
+
+      - institution: Comfama
+        area: Intensive Course in Agile Methodologies
+        start_date: 2026-01
+        end_date: 2026-01
+        highlights:
+          - 40-hour training in agile work frameworks, focused on efficient project management and value delivery.
+          - Practical application of ceremonies and artifacts (focused on Scrum and agile principles).
+
+      - institution: Independent Study & Continuous Training
+        area: Technical and Product Specialization
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - "Technical Focus: Integration of AI (OpenAI API), Automation (n8n), and Web Performance."
+          - "Product Design (LinkedIn Learning): Certification in UX/UI fundamentals, usability and visual hierarchy for digital products."
+          - "Application: Direct implementation of these knowledge in own projects."
+
       - institution: Henry Bootcamp
         area: Full Stack Web Developer
         start_date: 2023-01
         end_date: 2023-12
         highlights:
         - Intensive 700+ hour program focused on modern web development with React, Node.js, and agile methodologies.
-
-      - institution: LinkedIn Learning
-        area: User Interface (UI) & User Experience (UX) Design
-        start_date: 2024-01
-        end_date: 2024-04
-        highlights:
-        - Fundamentals of user-centered design, usability, visual hierarchy, and product-oriented interface design.
 
       - institution: SENA
         area: Market Management

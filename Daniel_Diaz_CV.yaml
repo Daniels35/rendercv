@@ -91,22 +91,31 @@ cv:
       - label: Inglés
         details: B2 – Uso profesional (lectura de documentación técnica y comunicación escrita)
 
-
-
     Educación:
+
+      - institution: Comfama
+        area: Curso Intensivo en Metodologías Ágiles
+        start_date: 2026-01
+        end_date: 2026-01
+        highlights:
+          - Formación de 40 horas en marcos de trabajo ágiles, enfocada en la gestión eficiente de proyectos y entregas de valor.
+          - Aplicación práctica de ceremonias y artefactos (enfocado en Scrum y principios ágiles).
+
+      - institution: Estudio Independiente & Formación Continua
+        area: Especialización Técnica y de Producto
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - "Foco Técnico: Integración de IA (OpenAI API), Automatización (n8n), y Performance Web."
+          - "Diseño de Producto (LinkedIn Learning): Certificación en fundamentos de UX/UI, usabilidad y jerarquía visual para productos digitales."
+          - "Aplicación: Implementación directa de estos conocimientos en proyectos propios."
+
       - institution: Henry Bootcamp
         area: Full Stack Web Developer
         start_date: 2023-01
         end_date: 2023-12
         highlights:
           - Programa intensivo de 700+ horas enfocado en desarrollo web moderno con React, Node.js y metodologías ágiles.
-
-      - institution: LinkedIn Learning
-        area: Diseño de Interfaz (UI) y Experiencia de Usuario (UX)
-        start_date: 2024-01
-        end_date: 2024-04
-        highlights:
-          - Fundamentos de diseño centrado en el usuario, usabilidad, jerarquía visual y diseño de interfaces orientadas a producto digital.
 
       - institution: SENA
         area: Gestión de Mercados
