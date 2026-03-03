@@ -17,6 +17,18 @@ cv:
       - Full Stack Software Engineer with experience in React, Node.js, and WordPress. Specialized in end-to-end digital product development, AI process automation, and production deployments (DevOps). I combine engineering, product strategy, and business vision to create scalable and profitable solutions.
 
     Work Experience:
+
+      - company: Liquitty
+        position: Senior Full Stack Software Engineer
+        location: Remote
+        start_date: 2026-02
+        end_date: present
+        highlights:
+        - 'Core Development (Wiser): Leading technical evolutions for a high-availability debt collection platform used by Tier-1 banks including Bancolombia, Davivienda, and Scotiabank Colpatria.'
+        - 'Fintech Architecture: Developing robust modules with React and Node.js, ensuring high performance and data integrity for massive transactional volumes.'
+        - 'Secure Infrastructure: Managing deployments in highly secure environments via VPN, utilizing Docker for containerization and GitLab for CI/CD pipelines.'
+        - 'System Modernization: Refactoring legacy logic into modern, maintainable architectures, improving system scalability and reducing technical debt.'
+
       - company: Tag Marketing Digital
         position: Full Stack Developer & WordPress Specialist
         location: Envigado (Hybrid)

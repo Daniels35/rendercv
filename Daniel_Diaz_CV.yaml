@@ -18,6 +18,18 @@ cv:
 
     
     Experiencia Laboral:
+
+      - company: Liquitty
+        position: Senior Full Stack Software Engineer
+        location: Remoto
+        start_date: 2026-02
+        end_date: present
+        highlights:
+          - 'Desarrollo Core (Wiser): Lidero evoluciones técnicas para una plataforma de gestión de cobranza de alta disponibilidad, utilizada por bancos de primer nivel como Bancolombia, Davivienda y Scotiabank Colpatria.'
+          - 'Arquitectura Fintech: Desarrollo de módulos robustos con React y Node.js, garantizando alto rendimiento e integridad de datos para volúmenes transaccionales masivos.'
+          - 'Infraestructura Segura: Gestión de despliegues en entornos de alta seguridad vía VPN, utilizando Docker para la contenedorización y GitLab para pipelines de CI/CD.'
+          - 'Modernización de Sistemas: Refactorización de lógica heredada (legacy) hacia arquitecturas modernas y mantenibles, mejorando la escalabilidad del sistema y reduciendo la deuda técnica.'
+
       - company: Tag Marketing Digital
         position: Full Stack Developer & WordPress Specialist
         location: Envigado (Híbrido)
