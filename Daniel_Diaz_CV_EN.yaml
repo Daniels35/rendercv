@@ -4,17 +4,18 @@ cv:
   headline: Full Stack Software Engineer | Product-Oriented | React | WordPress | DevOps
   location: Medellín, Colombia
   email: danielstiven35@gmail.com
-  phone: "+57 324 787 8784"
-  website: https://daniels35.lat/
+  phone: "+57 313 580 4424"
   social_networks:
     - network: LinkedIn
       username: danielsdiaz35
     - network: GitHub
       username: Daniels35
-  
+    - network: GitLab
+      username: danielstiven35
+
   sections:
-    Professional Profile:
-      - Full Stack Software Engineer with experience in React, Node.js, and WordPress. Specialized in end-to-end digital product development, AI process automation, and production deployments (DevOps). I combine engineering, product strategy, and business vision to create scalable and profitable solutions.
+    Professional Summary:
+      - Full Stack Software Engineer with experience in React, Node.js, and WordPress. Specialized in end-to-end digital product development, AI-driven process automation, and production deployments (DevOps). I combine engineering, product design, and business vision to build scalable and profitable solutions.
 
     Work Experience:
 
@@ -22,12 +23,12 @@ cv:
         position: Senior Full Stack Software Engineer
         location: Remote
         start_date: 2026-02
-        end_date: present
+        end_date: 2026-08
         highlights:
-        - 'Core Development (Wiser): Leading technical evolutions for a high-availability debt collection platform used by Tier-1 banks including Bancolombia, Davivienda, and Scotiabank Colpatria.'
-        - 'Fintech Architecture: Developing robust modules with React and Node.js, ensuring high performance and data integrity for massive transactional volumes.'
-        - 'Secure Infrastructure: Managing deployments in highly secure environments via VPN, utilizing Docker for containerization and GitLab for CI/CD pipelines.'
-        - 'System Modernization: Refactoring legacy logic into modern, maintainable architectures, improving system scalability and reducing technical debt.'
+          - 'Engineered and maintained features for a leading debt collection and portfolio recovery platform used by Tier-1 financial institutions such as Bancolombia, Davivienda, and Scotiabank Colpatria.'
+          - 'Fintech Architecture: Developed robust modules with React, Node.js, and Python, ensuring high performance and data integrity for massive transactional volumes.'
+          - 'Secure Infrastructure: Managed deployments in high-security environments via VPN using Docker for containerization and GitLab for CI/CD pipelines.'
+          - 'Systems Modernization: Refactored legacy codebases into modern, maintainable architectures, improving system scalability and reducing technical debt.'
 
       - company: Tag Marketing Digital
         position: Full Stack Developer & WordPress Specialist
@@ -35,52 +36,57 @@ cv:
         start_date: 2023-12
         end_date: 2025-12
         highlights:
-        - 'Web Development & CMS: Led the creation and maintenance of +25 WordPress sites using Elementor Pro, extending WooCommerce through custom plugins (PHP, MySQL, JavaScript).'
-        - 'Infrastructure & Deployment: Managed multi-provider servers and hosting (cPanel, Hostinger, Namecheap, HostGator), performing complete migrations, DNS configuration, and security with Cloudflare.'
-        - 'AI Automation: Implemented automation workflows for scheduling and customer service by integrating OpenAI API and n8n, increasing operational efficiency by 30%.'
-        - 'Performance Optimization: Reduced load times by up to 40% through asset optimization, caching, and performance best practices, improving conversion and UX.'
-        - 'SEO & Business Impact: Contributed to positioning multiple sites on the first page of search engines through technical and structural optimizations.'
+          - 'Web & CMS Development: Led the creation and maintenance of 25+ WordPress sites using Elementor Pro, extending WooCommerce through custom plugins (PHP, MySQL, JavaScript).'
+          - 'Infrastructure & Deployment: Managed multi-provider servers and hosting (cPanel, Hostinger, Namecheap, HostGator), performing full site migrations, DNS configurations, and Cloudflare security setups.'
+          - 'AI Automation: Implemented automation workflows for scheduling and customer support by integrating OpenAI API and n8n, boosting operational efficiency by 30%.'
+          - 'Performance Optimization: Reduced load times by up to 40% through asset optimization, caching, and performance best practices, enhancing UX and conversion rates.'
+          - 'SEO & Business Impact: Drove first-page search engine rankings for multiple client sites through technical and structural SEO optimizations.'
 
-
-      - company: Freelance / Own Projects
+      - company: Freelance / Personal Projects
         position: Full Stack Web Developer
         location: Remote
         start_date: 2022-01
         end_date: 2023-12
         highlights:
-          - 'Professional Beginnings: Development of personal websites and small business sites using WordPress, managing design, content, basic SEO optimization, and deployment.'
-          - 'International Project (Spain): Development of web platform for wellness products, including design and hosting.'
-          - 'Featured Project: Car Wash Manager (SaaS). Designed and developed from scratch a Progressive Web App (PWA) for comprehensive vehicle wash management, currently in production.'
-          - 'Software Engineering: Scalable architecture with React and Redux Toolkit for state management, along with Firebase (Firestore and Auth) as serverless backend.'
-          - 'End-to-End Management: Requirements gathering, technical design, development, deployment, and continuous support, translating business needs into digital solutions.'
-
+          - 'Early Career: Built websites for small businesses and personal projects using WordPress, handling design, content, basic SEO, and deployment.'
+          - 'International Project (Spain): Developed a web platform for wellness products, including UI/UX design and hosting infrastructure.'
+          - 'Featured Project: Car Wash Manager (SaaS). Designed and built a Progressive Web App (PWA) from scratch for vehicle wash management, currently active in production.'
+          - 'Software Engineering: Scalable architecture built with React and Redux Toolkit for state management, alongside Firebase (Firestore & Auth) as a serverless backend.'
+          - 'End-to-End Management: Handled requirements gathering, technical design, development, deployment, and ongoing support, translating business needs into digital solutions.'
 
     Featured Projects:
-    
+
+      - name: Contingency Server & Automation Scripts (Coyamor)
+        date: 2026
+        highlights:
+          - 'Deployed a high-availability mirror infrastructure on Windows Server (IIS) for a financial institution, migrating MySQL databases and WordPress ecosystem.'
+          - 'Configured dual routing architecture (WP_HOME / WP_SITEURL) to guarantee static asset loading (CSS, Elementor, media) in local subfolders.'
+          - 'Developed automated CLI tools (.bat) integrating WP-CLI, WinSCP, and 7-Zip for hot SFTP synchronization and ultra-fast backup packaging without downtime.'
+          - 'Created an interactive environment control panel (Local, LAN IP, Public Emergency) and designed a DNS switching protocol for critical contingencies.'
+
       - name: Facebook Ads → Google Sheets Connector
         date: 2025
         highlights:
-          - Automated connector to extract Facebook and Instagram Ads data directly into Google Sheets using Facebook Graph API and Google Apps Script.
-          - Built-in graphical interface (Sidebar) to configure custom reports without touching code.
-          - Dynamic KPI selection (Spend, Impressions, Clicks, CPC, CTR, ROAS) with advanced breakdowns by campaign, ad set, ad, age, gender, country, and platform.
-          - Automatic pagination handling for large data volumes and smart ad account validation.
-          - Secure storage of access tokens using ScriptProperties to avoid credential exposure.
+          - Automated connector extracting data from Facebook & Instagram Ads directly into Google Sheets using Facebook Graph API and Google Apps Script.
+          - Integrated GUI (Sidebar) enabling non-technical users to configure custom reports without writing code.
+          - Dynamic KPI selection (Spend, Impressions, Clicks, CPC, CTR, ROAS) and advanced breakdowns by campaign, adset, ad, age, gender, country, and platform.
+          - Automatic pagination handling for large data volumes and intelligent ad account validation.
+          - Secure Access Token storage via ScriptProperties, avoiding credential exposure.
           - Designed as a free alternative to paid connectors like Supermetrics or Windsor.
-
 
       - name: Tag Marketing Intranet (Internal System)
         date: 2024 - 2025
         highlights:
-          - Internal platform for operational management and company culture with gamification system (points, roles, and permissions).
-          - Node.js & Express backend with MySQL, Firebase Admin authentication, and automated tasks using cron jobs.
-          - Internal document system, email notifications (SMTP), and productivity tools such as QR generator.
-          - Separate client-server architecture (MERN stack) with React and Redux Toolkit on the frontend.
+          - Internal platform for operational management and company culture featuring a gamified points system, roles, and permissions.
+          - Node.js and Express backend with MySQL, Firebase Admin authentication, and automated cron jobs.
+          - Internal document system, email notifications (SMTP), and productivity utilities such as a QR generator.
+          - Decoupled client-server architecture (MERN stack) with React and Redux Toolkit on the frontend.
 
       - name: Custom WordPress Plugins
         date: 2024 - 2025
         highlights:
-          - Development of custom PHP plugins for WooCommerce (stock filters, attribute visualizers).
-          - Integration with external financial APIs for real-time data tables.
+          - Custom PHP plugin development for WooCommerce (Stock Filters, Attribute Viewers).
+          - Integration of external financial APIs to generate real-time data tables.
 
       - name: YouTube Speed Controller
         date: 2024
@@ -90,7 +96,7 @@ cv:
     Technical Skills:
       - label: Frontend
         details: React, JavaScript (ES6+), HTML5, CSS3, Redux Toolkit, WebGL (Canvas)
-      - label: Backend & Databases
+      - label: Backend & DB
         details: Node.js, Express, Firebase (Firestore/Auth), PHP, MySQL
       - label: CMS & No-Code
         details: Advanced WordPress, Elementor Pro, WooCommerce (Hooks/API)
@@ -101,49 +107,55 @@ cv:
       - label: Spanish
         details: Native
       - label: English
-        details: B2 – Professional working proficiency (technical documentation and written communication)
+        details: B2 – Professional working proficiency
 
     Education:
 
+      - institution: SENA - National Service of Learning
+        area: Technical Degree in Cybersecurity Risk Management for MSMEs
+        start_date: 2026-09
+        end_date: 2027-09
+        location: Colombia (Virtual)
+        
       - institution: Comfama
         area: Intensive Course in Agile Methodologies
         start_date: 2026-01
         end_date: 2026-01
         highlights:
-          - 40-hour training in agile work frameworks, focused on efficient project management and value delivery.
+          - 40-hour training in agile frameworks, focused on efficient project management and value delivery.
           - Practical application of ceremonies and artifacts (focused on Scrum and agile principles).
 
-      - institution: Independent Study & Continuous Training
-        area: Technical and Product Specialization
+      - institution: Independent Study & Continuous Learning
+        area: Technical & Product Specialization
         start_date: 2023-01
         end_date: present
         highlights:
-          - "Technical Focus: Integration of AI (OpenAI API), Automation (n8n), and Web Performance."
-          - "Product Design (LinkedIn Learning): Certification in UX/UI fundamentals, usability and visual hierarchy for digital products."
-          - "Application: Direct implementation of these knowledge in own projects."
+          - "Technical Focus: AI Integration (OpenAI API), Automation (n8n), and Web Performance."
+          - "Product Design (LinkedIn Learning): Certification in UX/UI fundamentals, usability, and visual hierarchy for digital products."
+          - "Application: Direct implementation of acquired knowledge in personal and client projects."
 
       - institution: Henry Bootcamp
         area: Full Stack Web Developer
         start_date: 2023-01
         end_date: 2023-12
         highlights:
-        - Intensive 700+ hour program focused on modern web development with React, Node.js, and agile methodologies.
+          - Intensive 700+ hour program focused on modern web development with React, Node.js, and agile methodologies.
 
       - institution: SENA
         area: Market Management
         start_date: 2019-01
         end_date: 2022-12
         highlights:
-        - Training in market analysis, commercial strategy, and marketing.
-        - Practical application in digital product validation, pricing, and customer-focused strategies.
+          - Training in market analysis, commercial strategy, and marketing.
+          - Practical application in digital product validation, pricing strategies, and customer focus.
 
       - institution: SENA
         area: Sales of Products and Services
         start_date: 2018-01
         end_date: 2019-05
         highlights:
-        - Training in sales processes, negotiation, and customer service.
-        - Foundation for understanding user needs and business-oriented results.
+          - Training in commercial processes, negotiation, and customer service.
+          - Foundation for understanding user needs and driving business-oriented results.
         
 design:
   theme: classic
@@ -311,7 +323,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-01-02'
+  current_date: '2026-08-05'
   render_command:
     design:
     locale:

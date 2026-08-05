@@ -5,13 +5,14 @@ cv:
   location: Medellín, Colombia
   email: danielstiven35@gmail.com
   phone: "+57 313 580 4424"
-  website: https://daniels35.lat/
   social_networks:
     - network: LinkedIn
       username: danielsdiaz35
     - network: GitHub
       username: Daniels35
-  
+    - network: GitLab
+      username: danielstiven35
+
   sections:
     Perfil Profesional:
       - Ingeniero de Software Full Stack con experiencia en React, Node.js y WordPress. Especializado en desarrollo end-to-end de productos digitales, automatización de procesos con IA y despliegues en producción (DevOps). Combino ingeniería, producto y visión de negocio para crear soluciones escalables y rentables.
@@ -23,10 +24,10 @@ cv:
         position: Senior Full Stack Software Engineer
         location: Remoto
         start_date: 2026-02
-        end_date: present
+        end_date: 2026-08
         highlights:
-          - 'Desarrollo Core (Wiser): Lidero evoluciones técnicas para una plataforma de gestión de cobranza de alta disponibilidad, utilizada por bancos de primer nivel como Bancolombia, Davivienda y Scotiabank Colpatria.'
-          - 'Arquitectura Fintech: Desarrollo de módulos robustos con React y Node.js, garantizando alto rendimiento e integridad de datos para volúmenes transaccionales masivos.'
+          - 'Desarrollo y mantenimiento evolutivo de plataforma líder en gestión de cobranza y recuperación de cartera utilizada por entidades financieras de primer nivel como Bancolombia, Davivienda y Scotiabank Colpatria.'
+          - 'Arquitectura Fintech: Desarrollo de módulos robustos con React, Node.js y Python, garantizando alto rendimiento e integridad de datos para volúmenes transaccionales masivos.'
           - 'Infraestructura Segura: Gestión de despliegues en entornos de alta seguridad vía VPN, utilizando Docker para la contenedorización y GitLab para pipelines de CI/CD.'
           - 'Modernización de Sistemas: Refactorización de lógica heredada (legacy) hacia arquitecturas modernas y mantenibles, mejorando la escalabilidad del sistema y reduciendo la deuda técnica.'
 
@@ -57,6 +58,14 @@ cv:
 
 
     Proyectos Destacados:
+
+      - name: Servidor de Contingencia & Scripts de Automatización (Coyamor)
+        date: 2026
+        highlights:
+          - 'Despliegue de infraestructura espejo de alta disponibilidad en Windows Server (IIS) para entidad financiera, migrando base de datos MySQL y el ecosistema WordPress.'
+          - 'Configuración de arquitectura de enrutamiento dual (WP_HOME / WP_SITEURL) para garantizar la correcta carga de recursos estáticos (CSS, Elementor, multimedia) en subcarpetas locales.'
+          - 'Desarrollo de herramientas CLI automatizadas (.bat) con integración de WP-CLI, WinSCP y 7-Zip para sincronización SFTP en caliente y empaquetado ultra-rápido de backups sin detener el servidor.'
+          - 'Creación de panel de control de entornos interactivas (Local, IP LAN, Emergencia Pública) y diseño del protocolo de conmutación DNS para contingencias críticas.'
 
       - name: Facebook Ads → Google Sheets Connector
         date: 2025
@@ -101,10 +110,16 @@ cv:
       - label: Español
         details: Nativo
       - label: Inglés
-        details: B2 – Uso profesional (lectura de documentación técnica y comunicación escrita)
+        details: B2 – Uso profesional
 
     Educación:
 
+      - institution: SENA - Servicio Nacional de Aprendizaje
+        area: Técnico en Tratamiento de Riesgos de Ciberseguridad en MIPYMES
+        start_date: 2026-09
+        end_date: 2027-09
+        location: Colombia (Virtual)
+        
       - institution: Comfama
         area: Curso Intensivo en Metodologías Ágiles
         start_date: 2026-01
@@ -312,7 +327,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-01-02'
+  current_date: '2026-08-05'
   render_command:
     design:
     locale:
